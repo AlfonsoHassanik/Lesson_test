@@ -1,5 +1,5 @@
 //Задание №1 -------------------------------------------------------------------------------------
-public class Сотрудник {
+public class employee {
     private String ФИО;
     private String должность;
     private String email;
@@ -7,7 +7,7 @@ public class Сотрудник {
     private double зарплата;
     private int возраст;
 
-    public Сотрудник(String ФИО, String должность, String email, String телефон, double зарплата, int возраст) {
+    public employee(String ФИО, String должность, String email, String телефон, double зарплата, int возраст) {
         this.ФИО = ФИО;
         this.должность = должность;
         this.email = email;
@@ -16,7 +16,7 @@ public class Сотрудник {
         this.возраст = возраст;
     }
 
-    public void вывестиИнформацию() {
+    public void showinfo() {
         System.out.println("ФИО: " + ФИО);
         System.out.println("Должность: " + должность);
         System.out.println
